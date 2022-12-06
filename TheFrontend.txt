@@ -1,0 +1,23 @@
+------ IDEIAS --------
+
+- Oculos de desenvolvimento de realidade virtual
+- Software de dicas e conteudos de desenvolvimento
+- Boot de organização de estudos e notificação diaria
+- Café + codigo, café que ajuda programadores iniciantes de experientes
+- DEVCAST - Plataforma de podcast, audios e musicas personalizadas para ajudar programadores iniciantes -- OK
+
+------ TECNOLOGIAS ----
+
+- HTML
+- CSS
+- JAVASCRIPT
+- JQuery
+- BOOTSTRAP
+- API
+
+------ FUNÇÕES DA EQUIPE ------
+
+-Co-facilitador (a) - Karol
+-Gestor(a) de Conhecimento - Anderson
+-Gestor(a) de Gente e Engajamento - Robson
+-Colaborador(a) - Kaio
