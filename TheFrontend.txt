@@ -21,3 +21,40 @@
 -Gestor(a) de Conhecimento - Anderson
 -Gestor(a) de Gente e Engajamento - Robson
 -Colaborador(a) - Kaio
+
+------ TEXTOS ----------
+
+O que é o devcast?
+Devcast é um podcast online para ensinamentos na área de tecnologia e principalmente programação. 
+Perfeito para você ouvir no transporte, assistir um live coding ao vivo e grátis.
+
+Feita principalmente para quem não possui tempo suficiente para praticar a programação, consumindo nossos conteúdos diários nós facilitamos o seu entendimento na área dev
+
+Por quê o devCast?
+Com a pandemia em 2020 e a explosão de canais de podcast, também aliado ao fato que o país irá precisar de mais de 800 mil profissionais de TI, surgiu a ideia de um conteúdo exclusivo, com bate papo, dados, live coding e convidados que atuam na área.
+
+Como o devCast te ajuda?
+Não consegue focar em uma vídeo-aula comum por ser muito complexo e se sente perdido? Temos a solução; com apresentadores carismáticos e uma conversa mais descontraída da tensão cotidiana. Apresentamos conteúdos de diversas áreas, histórias sobre entrevista de emprego, como se portar e tudo o que pode lhe ajudar a se tornar um desenvolvedor.
+
+Assinaturas:
+Você consegue assistir o devcast online e de forma gratuita. Mas também há alguns planos com benefícios
+
+Assinatura trainee:
+Assista de graça aos bate papos e live coding diários
+
+Assinatura Junior:
+Assista de graça aos bate papos e live coding diários, profissionais para retirar dúvidas, orientações, exercícios semanais, download de ensinamentos em pdf
+
+Assinatura Pleno: 
+Assista de graça aos bate papos e live coding diários, tenha acesso a dowloads das livestramings, acesso a correção/otimização de código, profissionais para retirar dúvidas, orientações, ferramentas de buscas, exercícios semanais, download de ensinamentos em pdf
+
+Assinatura Senior:
+Assista de graça aos bate papos e live coding diários, tenha acesso a dowloads das livestramings, acesso a correção/otimização de código, profissionais para retirar dúvidas, orientações, ferramentas/guias de buscas, exercícios semanais, notificação sobre novos empregos na área, download vitalício de ensinamentos em pdf.
+
+
+----- LINKS -----
+
+- ICONES
+
+https://icons.getbootstrap.com/
+
