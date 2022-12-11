@@ -1,24 +1,37 @@
-:root{
+:root {
   --cor1: #2F4C73;
   --cor2: #07F25A;
   --cor3: #0ABF49;
   --cor4: #0D0D09;
   --cor5: #F2F2F2;
 
-  
+
 }
 
-*{
+* {
   margin: 0;
   padding: 0;
 }
 
+body{
+  width: 100%;
+}
 
-.bi-person-circle{
+.nav-item {
+  margin-right: 10px;
+  margin-top: 5px;
+}
+
+.bi-person-circle {
   color: white;
 }
 
-footer{
+.cadastre{
+  background-image: url(https://www.canva.com/design/DAFUN0_AlME/view);
+  width: 100%;
+}
+
+footer {
   background-color: #3e4551;
 }
 
@@ -26,6 +39,12 @@ footer h5 {
   font-weight: bold;
 }
 
-.Copyright{
+.footer-cad {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Copyright {
   background-color: rgba(0, 0, 0, 0.2)
 }
