@@ -24,18 +24,43 @@ body{
   color: white;
 }
 
+.main-cad{
+  margin: 8em;
+}
+
+.cad-usuario {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-vantagens{
+  height: 100vh;
+  background-image: url(/assets/img/fundo-vantagens.jpg);
+  background-color: var(--cor4);
+  background-position: left center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.main-vantagens > article{
+  color: var(--cor5);
+  padding-top: 2.5em;
+  margin: auto;
+  text-align: center;
+}
+
+.main-vantagens  p{
+  font-size: 32px;
+}
+
 footer {
   background-color: #3e4551;
 }
 
 footer h5 {
   font-weight: bold;
-}
-
-.footer-cad {
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
 
 .Copyright {
