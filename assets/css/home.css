@@ -1,0 +1,34 @@
+:root {
+    --cor1: #2F4C73;
+    --cor2: #07F25A;
+    --cor3: #0ABF49;
+    --cor4: #0D0D09;
+    --cor5: #F2F2F2;
+} 
+
+/*Configuração de cadastro do corpo*/
+.main-cad{
+    margin: 8em;
+}
+
+/*Configuração da sessão vantagens*/
+.main-vantagens{
+    height: 100vh;
+    background-image: url(/assets/img/fundo-vantagens.jpg);
+    background-color: var(--cor4);
+    background-position: left center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+  
+.main-vantagens > article{
+    color: var(--cor5);
+    padding-top: 2.5em;
+    margin: auto;
+    text-align: center;
+}
+  
+.main-vantagens  p{
+    font-size: 32px;
+}
