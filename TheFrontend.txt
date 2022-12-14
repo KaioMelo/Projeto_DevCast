@@ -31,7 +31,7 @@ Perfeito para você ouvir no transporte, assistir um live coding ao vivo e grát
 Feita principalmente para quem não possui tempo suficiente para praticar a programação, consumindo nossos conteúdos diários nós facilitamos o seu entendimento na área dev
 
 Por quê o devCast?
-Com a pandemia em 2020 e a explosão de canais de podcast, também aliado ao fato que o país irá precisar de mais de 800 mil profissionais de TI, surgiu a ideia de um conteúdo exclusivo, com bate papo, dados, live coding e convidados que atuam na área.
+Com o avanço da pandemia do Coronavírus (COVID-19) em 2020 e as explosões de podcasts globalmente pelo mundo, tivemos a ideia de criar a DevCast com intuito de acelerar o apredizado de devs iniciantes aliado ao fato de que estatisticas apontam o crescimento por buscas de vagas no setor de desenvolvimento no país com mais ou menos cerca de 800 mil profissionais de TI, surgiu a ideia de um conteúdo exclusivo, com bate papo, dados, live coding e convidados que atuam na área.
 
 Como o devCast te ajuda?
 Não consegue focar em uma vídeo-aula comum por ser muito complexo e se sente perdido? Temos a solução; com apresentadores carismáticos e uma conversa mais descontraída da tensão cotidiana. Apresentamos conteúdos de diversas áreas, histórias sobre entrevista de emprego, como se portar e tudo o que pode lhe ajudar a se tornar um desenvolvedor.

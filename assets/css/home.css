@@ -14,9 +14,9 @@
 /*Configuração da sessão vantagens*/
 .main-vantagens{
     height: 100vh;
-    background-image: url(./assets/img/home/fundo-vantagens.jpg);
+    background-image: url(/assets/img/home/vantagens.jpg);
     background-color: var(--cor4);
-    background-position: left center;
+    background-position: top center;
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
@@ -36,96 +36,91 @@
 /*Configuração de feedbacks de clientes*/
 
 
-/*.feedback{
-    min-height: 100vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+.feedback{
+    margin-top: 60px;
+    background: var(--cor1);
+    font-family: montserrat;
+    display: grid;
+    place-items: 100vh;
 }
 
-.slide-content{
-    margin: 0 20px;
-}
-
-.card{
-    width: 320px;
-    border-radius: 25px;
-    background-color: var(--cor1);
-}
-
-.image-content,
-.card-content{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 10px 14px;
-}
-
-.image-content{
+.section-header{
     position: relative;
-    row-gap: 5px;
+    text-align: center;
+    font-weight: 900;
+    padding-bottom: 25px;
+    color: var(--cor5);
 }
 
-.overlay{
-    position: absolute;
-    left: 0;
-    top: 0;
-    height: 100%;
-    width: 100%;
-    background-color: var(--cor3);
-    border-radius: 25px 25px 0 25px;
-}
-
-.overlay::before,
-.overlay::after{
+.section-header:after{
     content: '';
+    height: 3px;
+    width: 200px;
     position: absolute;
-    right: 0;
-    bottom: -400px;
-    height: 40px;
-    width: 40px;
+    bottom: 0;
+    left: calc(50% - 100%);
+    background: var(--cor5);
 }
 
-.card-image{
-    position: relative;
-    height: 150px;
-    width: 150px;
-    border-radius: 50%;
-    padding: 3px;
+.section-header span{
+    display: block;
+    font-size: 15px;
+    font-weight: 300;
 }
 
-.card-image .card-img{
-    height: 100%;
-    width: 100%;
-    object-fit: cover;
-    border-radius: 50%;
-    border:  4px solid #4070f4;
+.testemonial{
+    max-width: 1000px;
+    padding: 0 15px 50px;
+    margin: 0 auto 80px auto;
 }
 
-.nome{
-    font-size: 18px;
-    font-weight: 500;
-    color: var(--cor1);
+.single-itens{
+    background: var(--cor5);
+    color: var(--cor4);
+    padding: 15px;
+    margin: 50px 15px;
 }
 
-.descricao{
-    font-size: 14px;
-    color: #707070;
+.profile{
+    margin-bottom: 30px;
     text-align: center;
 }
 
-.button{
-    border: none;
-    font-size: 16px;
-    color: #fff;
-    padding: 8px 16px;
-    background-color: var(--cor2);
-    border-radius: 6px;
-    margin: 14px;
-    cursor: pointer;
-    transition: all 0.3s ease;
+.img-area{
+    margin: 0 15px 15px 15px;
 }
 
-.button:hover{
-    background: var(--cor1) ;
-}*/
+.img-area img{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    border: 5px solid var(--cor2);
+}
+
+.content{
+    font-size: 18px;
+}
+
+.content p{
+    text-align: justify;
+}
+
+.content  p span i{
+    font-size: 48px;
+    margin-left: 20px;
+    color: var(--cor2);
+}
+
+.socials i{
+    margin-right: 25px;
+    color: var(--cor4);
+}
+
+.bio h4{
+    font-family: berkshire swash;
+}
+
+.carousel-control-next-icon,
+.carousel-control-prev-icon{
+    background-color: var(--cor4);
+}
