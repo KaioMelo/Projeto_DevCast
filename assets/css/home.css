@@ -14,7 +14,7 @@
 /*Configuração da sessão vantagens*/
 .main-vantagens{
     height: 100vh;
-    background-image: url(/assets/img/fundo-vantagens.jpg);
+    background-image: url(./assets/img/home/fundo-vantagens.jpg);
     background-color: var(--cor4);
     background-position: left center;
     background-repeat: no-repeat;
@@ -32,3 +32,100 @@
 .main-vantagens  p{
     font-size: 32px;
 }
+
+/*Configuração de feedbacks de clientes*/
+
+
+/*.feedback{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.slide-content{
+    margin: 0 20px;
+}
+
+.card{
+    width: 320px;
+    border-radius: 25px;
+    background-color: var(--cor1);
+}
+
+.image-content,
+.card-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px 14px;
+}
+
+.image-content{
+    position: relative;
+    row-gap: 5px;
+}
+
+.overlay{
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background-color: var(--cor3);
+    border-radius: 25px 25px 0 25px;
+}
+
+.overlay::before,
+.overlay::after{
+    content: '';
+    position: absolute;
+    right: 0;
+    bottom: -400px;
+    height: 40px;
+    width: 40px;
+}
+
+.card-image{
+    position: relative;
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    padding: 3px;
+}
+
+.card-image .card-img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+    border:  4px solid #4070f4;
+}
+
+.nome{
+    font-size: 18px;
+    font-weight: 500;
+    color: var(--cor1);
+}
+
+.descricao{
+    font-size: 14px;
+    color: #707070;
+    text-align: center;
+}
+
+.button{
+    border: none;
+    font-size: 16px;
+    color: #fff;
+    padding: 8px 16px;
+    background-color: var(--cor2);
+    border-radius: 6px;
+    margin: 14px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.button:hover{
+    background: var(--cor1) ;
+}*/
