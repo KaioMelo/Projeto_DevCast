@@ -1,0 +1,223 @@
+:root {
+    --cor1: #2F4C73;
+    --cor2: #07F25A;
+    --cor3: #0ABF49;
+    --cor4: #0D0D09;
+    --cor5: #F2F2F2;
+}
+
+/*Configuração de cadastro do corpo*/
+.main-cad {
+    margin: 8em;
+}
+
+/*Configuração da sessão vantagens*/
+.main-vantagens {
+    display: flex;
+    height: 100vh;
+    width: 100%;
+    background-image: url(/assets/img/home/vantagens.jpg);
+    background-color: var(--cor4);
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.text-box {
+    color: var(--cor5);
+    padding-top: 1.5em;
+    margin: auto;
+    text-align: center;
+    transform: scale(0.94);
+    animation: scale 3s forwards cubic-bezier(0.5, 1, 0.89, 1);
+}
+
+@keyframes scale {
+    100% {
+        transform: scale(1);
+    }
+}
+
+.text-box p {
+   
+    line-height: 32px;
+    margin-top: 90px;
+}
+
+.text-box span {
+    font-size: 22px;
+    display: inline-block;
+    opacity: 0;
+    filter: blur(4px);
+}
+
+span:nth-child(1) {
+    animation: fade-in 0.8s 0.1s forwards cubic-bezier(0.11, 0, 0.5, 0);
+  }
+  
+  span:nth-child(2) {
+    animation: fade-in 0.8s 0.2s forwards cubic-bezier(0.11, 0, 0.5, 0);
+  }
+  
+  span:nth-child(3) {
+    animation: fade-in 0.8s 0.3s forwards cubic-bezier(0.11, 0, 0.5, 0);
+  }
+  
+  span:nth-child(4) {
+    animation: fade-in 0.8s 0.4s forwards cubic-bezier(0.11, 0, 0.5, 0);
+  }
+  
+  span:nth-child(5) {
+    animation: fade-in 0.8s 0.5s forwards cubic-bezier(0.11, 0, 0.5, 0);
+  }
+  
+  span:nth-child(6) {
+    animation: fade-in 0.8s 0.6s forwards cubic-bezier(0.11, 0, 0.5, 0);
+  }
+  
+  span:nth-child(7) {
+    animation: fade-in 0.8s 0.7s forwards cubic-bezier(0.11, 0, 0.5, 0);
+  }
+  
+  span:nth-child(8) {
+    animation: fade-in 0.8s 0.8s forwards cubic-bezier(0.11, 0, 0.5, 0);
+  }
+  
+  span:nth-child(9) {
+    animation: fade-in 0.8s 0.9s forwards cubic-bezier(0.11, 0, 0.5, 0);
+  }
+  
+  span:nth-child(10) {
+    animation: fade-in 0.8s 1s forwards cubic-bezier(0.11, 0, 0.5, 0);
+  }
+  
+  span:nth-child(11) {
+    animation: fade-in 0.8s 1.1s forwards cubic-bezier(0.11, 0, 0.5, 0);
+  }
+  
+  span:nth-child(12) {
+    animation: fade-in 0.8s 1.2s forwards cubic-bezier(0.11, 0, 0.5, 0);
+  }
+  
+  span:nth-child(13) {
+    animation: fade-in 0.8s 1.3s forwards cubic-bezier(0.11, 0, 0.5, 0);
+  }
+  
+  span:nth-child(14) {
+    animation: fade-in 0.8s 1.4s forwards cubic-bezier(0.11, 0, 0.5, 0);
+  }
+  
+  span:nth-child(15) {
+    animation: fade-in 0.8s 1.5s forwards cubic-bezier(0.11, 0, 0.5, 0);
+  }
+  
+  span:nth-child(16) {
+    animation: fade-in 0.8s 1.6s forwards cubic-bezier(0.11, 0, 0.5, 0);
+  }
+  
+  span:nth-child(17) {
+    animation: fade-in 0.8s 1.7s forwards cubic-bezier(0.11, 0, 0.5, 0);
+  }
+  
+  span:nth-child(18) {
+    animation: fade-in 0.8s 1.8s forwards cubic-bezier(0.11, 0, 0.5, 0);
+  }
+  
+  @keyframes fade-in {
+    100% {
+      opacity: 1;
+      filter: blur(0);
+    }
+  }
+  
+
+/*Configuração de feedbacks de clientes*/
+.feedback {
+    margin-top: 60px;
+    background: var(--cor1);
+    font-family: montserrat;
+    display: grid;
+    place-items: 100vh;
+}
+
+.section-header {
+    position: relative;
+    text-align: center;
+    font-weight: 900;
+    padding-bottom: 25px;
+    color: var(--cor5);
+}
+
+.section-header:after {
+    content: '';
+    height: 3px;
+    width: 200px;
+    position: absolute;
+    bottom: 0;
+    left: calc(50% - 100%);
+    background: var(--cor5);
+}
+
+.section-header span {
+    display: block;
+    font-size: 15px;
+    font-weight: 300;
+}
+
+.testemonial {
+    max-width: 1000px;
+    padding: 0 15px 50px;
+    margin: 0 auto 80px auto;
+}
+
+.single-itens {
+    background: var(--cor5);
+    color: var(--cor4);
+    padding: 15px;
+    margin: 50px 15px;
+}
+
+.profile {
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.img-area {
+    margin: 0 15px 15px 15px;
+}
+
+.img-area img {
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    border: 5px solid var(--cor2);
+}
+
+.content {
+    font-size: 18px;
+}
+
+.content p {
+    text-align: justify;
+}
+
+.content p span i {
+    font-size: 48px;
+    margin-left: 20px;
+    color: var(--cor2);
+}
+
+.socials i {
+    margin-right: 25px;
+    color: var(--cor4);
+}
+
+.bio h4 {
+    font-family: berkshire swash;
+}
+
+.carousel-control-next-icon,
+.carousel-control-prev-icon {
+    background-color: var(--cor4);
+}

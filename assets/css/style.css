@@ -4,13 +4,13 @@
   --cor3: #0ABF49;
   --cor4: #0D0D09;
   --cor5: #F2F2F2;
-
-
 }
 
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
 }
 
 body{
@@ -22,13 +22,19 @@ body{
   margin-top: 5px;
 }
 
-.bi-person-circle {
+.bi{
   color: white;
 }
 
-.cadastre{
-  background-image: url(https://www.canva.com/design/DAFUN0_AlME/view);
-  width: 100%;
+.cad-usuario {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cad-usuario  a{
+  text-decoration: none;
+  color: white;
 }
 
 footer {
@@ -37,12 +43,6 @@ footer {
 
 footer h5 {
   font-weight: bold;
-}
-
-.footer-cad {
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
 
 .Copyright {

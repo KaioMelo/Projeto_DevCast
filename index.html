@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="assets/img/DevCast - logo.png" type="image/x-icon">
     <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/home.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
         integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css"
@@ -21,9 +22,14 @@
                 <a class="navbar-brand" href="#">
                     <img src="assets/img/DevCast - logo02.png" alt="" width="100" height="100">
                 </a>
-                <a class="navbar-brand" href="#">
-                    <i class="bi-person-circle">Login</i>
-                </a>
+                <div class="">
+                    <a class="navbar-brand" href="cadastrar.html">
+                        <i class="bi bi bi-pencil-square">Cadastre-se</i>
+                    </a>
+                    <a class="navbar-brand" href="login.html">
+                        <i class="bi bi-person-circle">Login</i>
+                    </a>
+                </div>
             </div>
         </div>
     </header>
@@ -37,13 +43,13 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                     <li class="nav-item">
-                        <a class="text-uppercase nav-link active" aria-current="page" href="#">Home</a>
+                        <a class="text-uppercase nav-link active" aria-current="page" href="index.html">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="text-uppercase nav-link" href="#">Serviços</a>
+                        <a class="text-uppercase nav-link" href="servicos.html">Serviços</a>
                     </li>
                     <li class="nav-item">
-                        <a class="text-uppercase nav-link" href="#">Contatos</a>
+                        <a class="text-uppercase nav-link" href="contatos.html">Contatos</a>
                     </li>
                 </ul>
                 <form class="d-flex">
@@ -56,15 +62,205 @@
     <main>
         <!--Incorporação slide de apresentação-->
         <div style="position: relative; width: 100%; height: 0; padding-top: 56.2500%;
-                        padding-bottom: 0; box-shadow: 0 2px 8px 0 rgba(63,69,81,0.16); margin-bottom: 0.9em; overflow: hidden;
-                        will-change: transform;">
+                     padding-bottom: 0; box-shadow: 0 2px 8px 0 rgba(63,69,81,0.16); margin-bottom: 0.9em; overflow: hidden;
+                     will-change: transform;">
             <iframe loading="lazy"
                 style="position: absolute; width: 100%; height: 100%; top: 0; left: 0; border: none; padding: 0;margin: 0;"
-                src="https:&#x2F;&#x2F;www.canva.com&#x2F;design&#x2F;DAFUNTWlYo0&#x2F;view?embed"
-                allowfullscreen="allowfullscreen" allow="fullscreen">
+                src="https:&#x2F;&#x2F;www.canva.com&#x2F;design&#x2F;DAFUNTWlYo0&#x2F;view?embed">
             </iframe>
         </div>
         <!--Cadastre-se-->
+        <section class="cadast main-cad">
+            <p class="cad-usuario">
+                <span class="me-3">Cadastre-se gratuitamente</span>
+                <button type="button" class="btn btn-outline-dark btn-rounded">
+                    Cadastrar
+                </button>
+            </p>
+        </section>
+        <!--Vantagens-->
+        <section class="vantagens main-vantagens">
+            <article class="text-box">
+                <span>Com o avanço da pandemia do Coronavírus (COVID-19)</span>
+                <span>em 2020 e as explosões de podcasts globalmente</span>
+                <span>pelo mundo, tivemos a ideia de criar a DevCast </span>
+                <span>com intuito de acelerar o apredizado de devs</span>
+                <span>iniciantes aliado ao fato de que estatisticas</span>
+                <span>apontam o crescimento por buscas de vagas no setor</span>
+                <span>de desenvolvimento no país com mais ou menos cerca</span> 
+                <span>de 800 mil profissionais de TI, surgiu a ideia</span> 
+                <span>de um conteúdo exclusivo, com bate papo, dados,</span> 
+                <span>live coding e convidados que atuam na área.</span>
+            </article>
+        </section>
+        <!--Porque Nós-->
+        <section class="porqueNos main-porqueNos container-fluid">
+            <div class="row mb-4">
+                <h2 class="mb-4 d-flex justify-content-center align-itens-center">Nossas vantagens</h2>
+                <div class="col-md-4 col-lg-4 col-xl-3 mx-auto mt-3">
+                    <div class="card">
+                        <img src="assets/img/home/estatistica.jpg" alt="">
+                        <div class="card-body">
+                            <h5 class="card-title">Progressão</h5>
+                            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis iste
+                                velit soluta nulla, voluptatum repellendus maxime iusto ullam iure tempore possimus
+                                officia dolore et magnam earum quia nisi magni molestiae.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-lg-4 col-xl-3 mx-auto mt-3">
+                    <div class="card">
+                        <img src="assets/img/home/economia.jpg" alt="">
+                        <div class="card-body">
+                            <h5 class="card-title">Economia</h5>
+                            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus
+                                amet dolor provident ad similique dolores excepturi itaque repellendus. Ipsa blanditiis
+                                dolorem eaque, dignissimos dicta quis cumque obcaecati recusandae. Eos, asperiores.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-lg-4 col-xl-3 mx-auto mt-3">
+                    <div class="card">
+                        <img src="assets/img/home/formacao.jpg" alt="">
+                        <div class="card-body">
+                            <h5 class="card-title">Objetivos</h5>
+                            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti unde
+                                amet explicabo eligendi dignissimos quo hic ullam expedita. Corrupti quasi enim
+                                voluptate nemo officia repellat mollitia vitae vero assumenda inventore!</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--Feedbacks clientes-->
+        <section class="feedback main-feedback">
+            <div class="container">
+                <h1 class="section-header">
+                    Avaliações de nossos clientes
+                    <span>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Corrupti neque cumque eligendi
+                        officiis modi expedita, ad hic voluptates? Animi deleniti obcaecati pariatur tempore adipisci
+                        rem eius aspernatur vitae incidunt at?</span>
+                </h1>
+                <div class="testemonial">
+                    <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <div class="single-itens">
+                                    <div class="row">
+                                        <div class="col-md-5">
+                                            <div class="profile">
+                                                <div class="img-area">
+                                                    <img src="https://avatars.githubusercontent.com/u/116959519?v=4"
+                                                        alt="Perfil">
+                                                </div>
+                                                <div class="bio">
+                                                    <h2>Dev full stack</h2>
+                                                    <h4>Programadores Cariocas</h4>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <div class="content">
+                                                <p>
+                                                    <span><i class="bi bi-quote"></i></span>
+                                                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsam,
+                                                    obcaecati? Ducimus iure, quisquam laboriosam assumenda nam
+                                                    recusandae quia eaque commodi asperiores voluptatum dolorum ullam
+                                                    cupiditate, nihil perspiciatis autem reiciendis laudantium?
+                                                </p>
+                                                <p class="socials">
+                                                    <i class="bi bi-linkedin"></i>
+                                                    <i class="bi bi-github"></i>
+                                                    <i class="bi bi-instagram"></i>
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="single-itens">
+                                    <div class="row">
+                                        <div class="col-md-5">
+                                            <div class="profile">
+                                                <div class="img-area">
+                                                    <img src="https://avatars.githubusercontent.com/u/115670321?v=4"
+                                                        alt="perfil">
+                                                </div>
+                                                <div class="bio">
+                                                    <h2>Dev Full Stack</h2>
+                                                    <h4>Programadores Cariocas</h4>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <div class="content">
+                                                <p>
+                                                    <span><i class="bi bi-quote"></i></span>
+                                                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsam,
+                                                    obcaecati? Ducimus iure, quisquam laboriosam assumenda nam
+                                                    recusandae quia eaque commodi asperiores voluptatum dolorum ullam
+                                                    cupiditate, nihil perspiciatis autem reiciendis laudantium?
+                                                </p>
+                                                <p class="socials">
+                                                    <i class="bi bi-linkedin"></i>
+                                                    <i class="bi bi-github"></i>
+                                                    <i class="bi bi-instagram"></i>
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="single-itens">
+                                    <div class="row">
+                                        <div class="col-md-5">
+                                            <div class="profile">
+                                                <div class="img-area">
+                                                    <img src="https://avatars.githubusercontent.com/u/113373282?v=4"
+                                                        alt="perfil">
+                                                </div>
+                                                <div class="bio">
+                                                    <h2>Dev Full Stack</h2>
+                                                    <h4>Programadores Cariocas</h4>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <div class="content">
+                                                <p>
+                                                    <span><i class="bi bi-quote"></i></span>
+                                                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsam,
+                                                    obcaecati? Ducimus iure, quisquam laboriosam assumenda nam
+                                                    recusandae quia eaque commodi asperiores voluptatum dolorum ullam
+                                                    cupiditate, nihil perspiciatis autem reiciendis laudantium?
+                                                </p>
+                                                <p class="socials">
+                                                    <i class="bi bi-linkedin"></i>
+                                                    <i class="bi bi-github"></i>
+                                                    <i class="bi bi-instagram"></i>
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+                            data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+                            data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </section>
     </main>
     <footer class="text-center text-lg-start text-white">
         <div class="container p-4 pb-0">
@@ -84,7 +280,7 @@
                     </div>
                     <hr class="w-100 clearfix d-md-none" />
                     <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
-                        <h5 class="text-uppercase mb-4">Usuario</h5>
+                        <h5 class="text-uppercase mb-4">Usuário</h5>
                         <p>
                             <a class="text-white">Login</a>
                         </p>
@@ -114,10 +310,10 @@
             </section>
             <hr class="mb-4" />
             <section class="">
-                <p class="footer-cad">
+                <p class="cad-usuario">
                     <span class="me-3">Cadastre-se gratuitamente</span>
                     <button type="button" class="btn btn-outline-light btn-rounded">
-                        Cadastrar
+                        <a href="cadastrar.html">Cadastrar</a>
                     </button>
                 </p>
             </section>
