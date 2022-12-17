@@ -24,3 +24,7 @@ function popularForm(resposta) {
     cidade.value = resposta.localidade;
     estado.value = resposta.uf;
 }
+
+function abrirAlerta(){
+    alert("Dados fornecidos não constam na base de dados.")
+}
