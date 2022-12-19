@@ -18,6 +18,17 @@
   color: white;
 }
 
+.cad-usuario{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cad-usuario  a{
+ text-decoration: none;
+ color: var(--cor5);
+}
+
 footer{
   background-color: #3e4551;
 }
