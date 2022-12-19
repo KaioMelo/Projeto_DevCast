@@ -30,66 +30,6 @@ footer h5 {
   background-color: rgba(0, 0, 0, 0.2)
 }
 
-main {
-  background-color: none;
-}
-
-.container1 {
-  margin: 0 auto;
-  width: 100%;
-  max-width: 1000px;
-  background: #fff;
-  border-radius: 8px;
-  height: auto;
-  padding: 20px;
-}
-
-.frm-row {
-  margin-bottom: 12px;
-}
-
-.frm-row label {
-  display: block;
-  margin-bottom: 3px;
-}
-
-.frm-row input{
-  width:calc(100% - 16px);
-  padding: 8px;
-  border-radius: 4px;
-  border: 1px solid #ccc;
-  height: 25px;
-  font-size: 1.2rem;
-}
-
-form {
-  display: flex;
-  
-}
-
-.button {
-  display: flex;
-  align-items: center;
-  margin: 50px;
-}
-
-form button {
-  display: flex;
-  align-items: center;
-  justify-items: center;
-  justify-content: center;
-  border-radius: 0.375rem;
-  font-size: 18px;
-  height: 45px;
-  width: 80px;
-  background-color: #0D0D09;
-  color: #198754;
-  border-color: #198754;
-  font-weight: 400;
-  
-}
-
-
 .login {
   display: block;
   flex-direction: column;
