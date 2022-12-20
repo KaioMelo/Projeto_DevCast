@@ -1,0 +1,27 @@
+.login {
+    display: block;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+    padding: 10%;
+}
+
+.login h1 {
+    
+}
+
+.login form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+    height: 25px;
+}
+
+.usuario {
+    margin: 5px;
+}
+
+.senha {
+    margin: 5px;
+}
