@@ -1,25 +1,26 @@
-.recuperarsenha {
+main {
   display: flex;
   justify-content: center;
-  margin: 50px;
 }
 
-.recuperarsenha form {
+.recuperarSenha {
+  border-radius: 20px;
+  background-color: rgb(206, 206, 206);
+}
+
+.recuperarSenha form {
+  margin: 120px;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
 }
 
-.recuperarsenha button {
+
+
+.recuperarSenha button {
   margin-top: 10px;
-  background-color: #198754;
-  color: #ffffff;
-  
 }
 
-.recuperarsenha button:hover {
+.recuperarSenha button:hover {
   margin-top: 10px;
-  background-color: #2F4C73;
-  color: #ffffff;
-  
 }

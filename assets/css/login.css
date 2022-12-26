@@ -1,8 +1,15 @@
+main {
+    display: flex;
+    justify-content: center;
+}
+
 .login {
-    margin: 120px;
+    border-radius: 20px;
+    background-color: rgb(206, 206, 206);
 }
 
 .login form {
+    margin: 120px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -20,7 +27,7 @@
     margin: 10px;
 }
 
-
 .btn-primary {
     margin-left: 20px;
 }
+
