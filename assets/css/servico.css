@@ -1,20 +1,21 @@
+/* section geral, o posicionamento dos cards*/
 .CardGeral {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     align-content: center;
     width: 100%;
     height: 100%;
 }
 
-   
+/* Card TREINEE */   
 .card {
 background: #fff;
 border-radius: 20px;
 box-shadow:  0px 2px 23px #26395338;
 }
 .mediaCard {
-    background: url(https://tse1.mm.bing.net/th?id=OIP.jSZZo5WESGZgapfbmedTNAHaHa&pid=Api&P=0);
+    background: url();
     height: 250px;
     width: 250px;
 }
@@ -30,6 +31,84 @@ box-shadow:  0px 2px 23px #26395338;
     border: none;
     color: purple;
 }
+
+/* Card JUNIOR */
+.card2 {
+    background: #fff;
+    border-radius: 20px;
+    box-shadow:  0px 2px 23px #26395338;
+}
+.mediaCard2 {
+    background: url();
+    height: 250px;
+    width: 250px;
+}
+.topCard2 {
+    padding: 20px;
+    padding-top: 0px;
+}
+.bottomCard2 {
+    padding: 20px;
+}
+.actions2{
+    background: none;
+    border: none;
+    color: purple;
+}
+
+/* Card PLENO */
+.card3{
+    background: #fff;
+    border-radius: 20px;
+    box-shadow: 0px 2px 23px #26395338;
+}
+.mediaCard3{
+    background: url();
+    height: 250px;
+    width: 250px;
+}
+.topCard3 {
+    padding: 20px;
+    padding-top: 0px;
+}
+.bottomCard3{
+    padding: 20px;
+}
+.actions3{
+    background: none;
+    border: none;
+    color: purple;
+}
+
+/* Card SENIOR */
+.card4{
+    background: #fff;
+    border-radius: 20px;
+    box-shadow: 0px 2px 23px #26395338;
+}
+.mediaCard4{
+    background: url();
+    height: 250px;
+    width: 250px;
+}
+.topCard4{
+    padding: 20px;
+    padding-top: 0px;
+}
+.bottomCard4{
+    padding: 20px;
+}
+.actions4{
+    background: none;
+    border: none;
+    color: purple;
+}
+
+
+
+
+
+
 
 body{
     background: linear-gradient(to right, #43c6ac, #191654);
