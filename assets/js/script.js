@@ -4,7 +4,7 @@ let bairro = document.querySelector('#bairro');
 let cidade = document.querySelector('#cidade');
 let estado = document.querySelector('#estado');
 
-cep.value= '';
+cep.value = '';
 
 cep.addEventListener('blur', function(e) {
     let cep = e.target.value;
