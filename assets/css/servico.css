@@ -55,8 +55,12 @@ body{
 .owl-carousel img {
     height: 200px;
 }
+audio {
+    width: 245px;
+    height: 25px;
+}
 
-.player {
+/*.player {
     width: 350px;
     background: #f1f2f3;
     border-radius: 20px;
@@ -83,4 +87,4 @@ body{
 .player audio {
     width: 100%;
     outline: none;
-}
+}*/
