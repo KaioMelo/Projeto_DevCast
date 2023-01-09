@@ -64,23 +64,24 @@
         </div>
     </nav>
     <main>
-       <div class="login">
-        <form>
-            <h1>Login</h1>
-            <div class="usuario">
-                <label for="e-mail">E-mail:</label>
-                <input type="email" name="email" id="email" >
-            </div>
-            <div class="senha">
-                <label for="password">Senha:</label>
-                <input type="password" name="password" id="password" >
-            </div>
-            <div class="botoes">
-                <button onclick="abrirAlerta()" type="button" class="btn btn-success">Entrar</button>
-                <a href="recuperarSenha.html" class="btn btn-primary">Recuperar Senha</a>
-            </div>
+        <div class="login">
+            <form method="POST" class="form">
+                <div class="info-pessoal">
+                    <div class="usuario formControl">
+                        <label for="e-mail">Digite seu e-mail:</label>
+                        <input type="email" name="email" id="email" required>
+                    </div>
+                    <div class="senha formControl">
+                        <label for="password">Escolha uma Senha:</label>
+                        <input type="password" name="password" id="password" required>
+                    </div>
+                </div>
+                <div class="botoes">
+                    <button type="submit" class="btn btn-success">Entrar</button>
+                    <a href="recuperarSenha.html" class="btn btn-primary">Recuperar Senha</a>
+                </div>
+            </form>
         </div>
-        </form>
     </main>
     <footer class="text-center text-lg-start text-white">
         <div class="container p-4 pb-0">
