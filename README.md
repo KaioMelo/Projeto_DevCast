@@ -1,4 +1,4 @@
-# 02.Projeto-Grupo-FullStackCar
+# 02.Projeto-Grupo-TheFrontenders
 Segundo Projeto em grupo utilizando metodologias Resilia do curso de Programadores Cariocas
 
  ## 💡 Início 
