@@ -43,7 +43,7 @@ body{
 }
 
 .box-card {
-    height: 100%;
+    height: 50%;
     width: 100%;
     display: block;
 }
@@ -56,7 +56,7 @@ body{
     height: 200px;
 }
 audio {
-    width: 245px;
+    width: 350px;
     height: 25px;
 }
 
