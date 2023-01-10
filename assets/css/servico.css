@@ -2,6 +2,10 @@ body{
     background: linear-gradient(to right, #43c6ac, #191654);
 }
 /* Card Configuração */
+
+h2{
+    color: #f1f2f3;
+}
 .card {
     text-align: justify;
     font-size: 18px;
