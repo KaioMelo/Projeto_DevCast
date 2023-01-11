@@ -3,12 +3,9 @@
       }
       
       .container1 {
-        margin: 0 auto;
-        width: 100%;
-        max-width: 1000px;
+        margin: 5%;
         background-color: rgb(206, 206, 206);
         border-radius: 8px;
-        height: auto;
         padding: 20px;
       }
       
