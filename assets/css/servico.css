@@ -2,6 +2,10 @@ body{
     background: linear-gradient(to right, #43c6ac, #191654);
 }
 /* Card Configuração */
+
+h2{
+    color: #f1f2f3;
+}
 .card {
     text-align: justify;
     font-size: 18px;
@@ -43,7 +47,7 @@ body{
 }
 
 .box-card {
-    height: 100%;
+    height: 50%;
     width: 100%;
     display: block;
 }
@@ -55,8 +59,18 @@ body{
 .owl-carousel img {
     height: 200px;
 }
+audio {
+    width: 100%;
+    height: 25px;
+}
+.box-shadow .button {
+    -webkit-box-shadow: 0px 0px 5px #666;
+    -mox-box-shadow: 0px 0px 5px #666;
+    -ms-box-shadow: 0px 0px 5px #666;
+    -o-box-shadow: 0px 0px 5px #666;
+}
 
-.player {
+/*.player {
     width: 350px;
     background: #f1f2f3;
     border-radius: 20px;
@@ -83,4 +97,4 @@ body{
 .player audio {
     width: 100%;
     outline: none;
-}
+}*/

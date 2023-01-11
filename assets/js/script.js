@@ -11,7 +11,8 @@ let bairro = document.querySelector('#bairro');
 let cidade = document.querySelector('#cidade');
 let estado = document.querySelector('#estado');
 
-// Formulario de contato
+// Validação de formularios do projeto
+
  form.addEventListener('submit', (e) => {
     e.preventDefault
     checkInputs()
@@ -62,126 +63,21 @@ let estado = document.querySelector('#estado');
 
  function errorValidation(input, message){
     const formControl = input.parentElement;
-    const small = formControl.querySelector('small')
-
-    small.innerText = message
-
-    formControl.className = 'form-control error'
+   
+    alert('Erro ao enviar, verifique seus dados!')
+    limpa_formulário()
  }
 
  function successValidation(input){
     const formControl = input.parentElement;
 
-    formControl.className = 'form-control success'
+    alert('Dados enviados com sucesso')
+    limpa_formulário()
  }
-
-// Formulario de Cadastro
-
-
-form.addEventListener('submit', (e) => {
-    e.preventDefault
-    checkInputs()
- })
-
- function checkInputs(){
-    const usernameValue = username.value.trim()
-    const emailValue = email.value.trim()
-    const ageValue = age.value.trim()
-    const passawordValue = password.value.trim()
-
-    if(usernameValue === ''){
-
-        errorValidation(username, 'Preencha esse campo')
-    }else{
-        successValidation(username)
-    }
-
-    if(emailValueValue === ''){
-
-        errorValidation(email, 'Preencha esse campo')
-    }else{
-        successValidation(email)
-    }
-
-    if(ageValueValueValueValue === ''){
-
-        errorValidation(age, 'Preencha esse campo')
-    }else{
-        successValidation(age)
-    }
-
-    if(passawordValueValueValueValueValue === ''){
-
-        errorValidation(password, 'Preencha esse campo')
-    }else{
-        successValidation(password)
-    }
-
- }
-
- function errorValidation(input, message){
-    const formControl = input.parentElement;
-    const small = formControl.querySelector('small')
-
-    small.innerText = message
-
-    formControl.className = 'form-control error'
- }
-
- function successValidation(input){
-    const formControl = input.parentElement;
-
-    formControl.className = 'form-control success'
- }
-
-// Formulário de Login
-
-
-form.addEventListener('submit', (e) => {
-    e.preventDefault
-    checkInputs()
- })
-
- function checkInputs(){
-    const emailValue = email.value.trim()
-    const passawordValue = password.value.trim()
-
-    if(emailValueValue === ''){
-
-        errorValidation(email, 'Preencha esse campo')
-    }else{
-        successValidation(email)
-    }
-
-    if(passawordValueValueValueValueValue === ''){
-
-        errorValidation(password, 'Preencha esse campo')
-    }else{
-        successValidation(password)
-    }
-
- }
-
- function errorValidation(input, message){
-    const formControl = input.parentElement;
-    const small = formControl.querySelector('small')
-
-    small.innerText = message
-
-    formControl.className = 'form-control error'
- }
-
- function successValidation(input){
-    const formControl = input.parentElement;
-
-    formControl.className = 'form-control success'
- }
-
-
 
 // VIA CEP - Lista de Espera
 
-cep.value = ' ';
+cep.value = '';
 
 cep.addEventListener('blur', function(e) {
     let cep = e.target.value;
@@ -204,4 +100,20 @@ function popularForm(resposta) {
 
 function abrirAlerta(){
     alert("Dados fornecidos não constam na base de dados.")
+}
+
+// limpa formulario de todos os formulario
+
+function limpa_formulário() {
+    //Limpa valores do formulário
+    document.getElementById('rua').value=("");
+    document.getElementById('bairro').value=("");
+    document.getElementById('cidade').value=("");
+    document.getElementById('estado').value=("");
+    document.getElementById('cep').value=("");
+    document.getElementById('name').value=("");
+    document.getElementById('email').value=("");
+    document.getElementById('password').value=("");
+    document.getElementById('age').value=("");
+    document.getElementById('message').value=("");
 }
