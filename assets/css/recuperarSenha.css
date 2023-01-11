@@ -3,19 +3,33 @@ main {
   justify-content: center;
 }
 
+.info-pessoal {
+  width: max-content;
+}
+
 .recuperarSenha {
+  padding: 80px;
+  justify-content: center;
+  width: max-content;
+  align-items: center;
+  flex-direction: column;
+  display: flex;
+  margin: 5%;
   border-radius: 20px;
   background-color: rgb(206, 206, 206);
 }
 
 .recuperarSenha form {
-  margin: 120px;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  margin-left: 1%;
 }
 
-
+.frm-row-formControl {
+  margin-top: 10px;
+  display: flex;
+  width: max-content;
+}
 
 .recuperarSenha button {
   margin-top: 10px;
@@ -23,4 +37,8 @@ main {
 
 .recuperarSenha button:hover {
   margin-top: 10px;
+}
+
+input {
+  border-radius: 4px;
 }
