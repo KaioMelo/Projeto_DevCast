@@ -11,7 +11,7 @@ Nossa equipe é formada por 4 integrantes e cada um exercendo uma função no pr
 
 <ul>
   <li><strong>Co-facilitadora</strong> Karolayne Rodrigues</li>
-  <li><strong>Gestora
+  <li><strong>Gestor
 de Conhecimento</strong> Robson Azevedo</li>
   <li><strong>Gestora de
 Gente e Engajamento</strong> Anderson</li>
