@@ -1,3 +1,7 @@
+body{
+    background: linear-gradient(to right, #43c6ac, #191654);
+}
+
 h1, h2{
     font-size: 2rem;
     color: rgba(400, 320, 90, 110);
@@ -6,16 +10,12 @@ h1, h2{
     line-height: 1.2;
 }
 
-.profile{
-    background-color: gray;
-}
 
 .social-icons > a{
     text-decoration: none;
 }
 
 .formulario{
-    background-color: gray;
     min-height: 100vh;
     display: flex;
     align-items: center;
