@@ -221,3 +221,8 @@ span:nth-child(1) {
 .carousel-control-prev-icon {
     background-color: var(--cor4);
 }
+.card:hover{
+  transform: translateY(-10px);
+  transition: all ease 0.5s;
+  border-color: #2F4C73;
+}
