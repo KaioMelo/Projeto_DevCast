@@ -116,6 +116,13 @@ audio {
         padding: 10px;
     }
  }
+ @media screen and (max-width: 400px) {
+    .convidados {
+        display: flex;
+        flex-direction: column;
+        padding: 10px;
+    }
+ }
  @media screen and (max-width: 800px) {
     .boxConvid{
         display: flex;        

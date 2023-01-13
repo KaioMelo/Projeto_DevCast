@@ -102,6 +102,10 @@ function abrirAlerta(){
     alert("Dados fornecidos não constam na base de dados.")
 }
 
+function abrirAlerta2(){
+    alert("No momento não temos vagas disponíveis.")
+}
+
 // limpa formulario de todos os formulario
 
 function limpa_formulário() {
