@@ -1,12 +1,21 @@
     main {
-        background-color: none;
+      background: linear-gradient(to right, #43c6ac, #191654);
+      padding: 2%;
       }
       
       .container1 {
-        margin: 5%;
-        background-color: rgb(206, 206, 206);
+        background: #fff;
         border-radius: 8px;
-        padding: 20px;
+        padding: 40px;
+        width: max-content;
+      }
+
+      .container1 h1 {
+        color: #0D0D09
+      }
+    
+      .container1 p {
+        color: #0D0D09;
       }
       
       .frm-row1 {
@@ -63,4 +72,17 @@
         border-color: #198754;
         font-weight: 400;
         
+      }
+
+      @media screen and (max-width: 800px) {
+        .form {
+          flex-direction: column;
+          width: -webkit-fill-available;
+        }
+      }
+        @media screen and (max-width: 800px) {
+          .container1 {
+            flex-direction: column;
+            width: fit-content;
+          }
       }
