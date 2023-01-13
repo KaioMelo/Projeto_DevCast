@@ -31,14 +31,27 @@ background-color: rgba(0, 0, 0, 0.2)
 }
 
 main {
-    background-color: none;
+    background: linear-gradient(to right, #43c6ac, #191654);
+    padding: 3%;
   }
   
   .container1 {
-    background-color: rgb(206, 206, 206);
+    padding: 2%;
+    display: flex;
+    width: max-content;
+    flex-direction: column;
     border-radius: 8px;
     height: auto;
-    padding: 20px;
+    align-items: flex-start;
+    background-color: #F2F2F2;
+  }
+
+  .container1 h1 {
+    color: #000;
+  }
+
+  .container1 p {
+    color: #000;
   }
   
   .frm-row {
@@ -84,4 +97,17 @@ main {
     border-color: #198754;
     font-weight: 400;
     
+  }
+
+  @media screen and (max-width: 800px) {
+    .form {
+      flex-direction: column;
+      width: -webkit-fill-available;
+    }
+  }
+    @media screen and (max-width: 800px) {
+      .container1 {
+        flex-direction: column;
+        width: fit-content;
+      }
   }
